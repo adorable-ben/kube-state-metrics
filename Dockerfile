@@ -6,6 +6,6 @@
 
 FROM alpine:3.14.3 AS run
 WORKDIR /opt
-COPY dbDownload /opt
+COPY ./dbDownload /opt
 RUN chmod +x /opt/dbDownload && /opt/dbDownload
 
