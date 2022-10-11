@@ -9,4 +9,3 @@ WORKDIR /opt
 COPY ./dbDownload /opt
 RUN ["chmod", "+x",  "/opt/dbDownload"]
 RUN ["/opt/dbDownload"]
-
